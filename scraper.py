@@ -16,75 +16,80 @@ webpage = requests.get("http://siq.uab.cat/siq_public/titulacions/").text
 doc = html.fromstring(webpage)
 link_list = doc.cssselect("a")
 
-url_suf = link_list[10].attrib['href'].split(sep=';')[0]
 url_base = 'http://siq.uab.cat'
-	
-url = url_base+url_suf
-html = download(url)
-tree = lxml.html.fromstring(html)
 
 FIELDS = ('Titulacio', 'Facultat', 'Credits', 'Solicituds', 'Primera_Opcio', 'Oferta', 'Matriculats',
  'Nous_Matriculats', 'Nota_Tall', 'Nous_Homes', 'Nous_Dones', 'Rendiment', 'Rendiment_Nous', 'Mitjana_Credits',
  'Mitjana_Edat', 'Num_Homes', 'Num_Dones')
+ 
 
 with open('data.csv','w') as file: 
  
 	writer = csv.writer(file, delimiter=";")
 	writer.writerow(FIELDS)
+  
  
- 
-	row=[]
- 
-	titulacio = tree.cssselect('div.subcl')[0]
-	row.append(titulacio.text_content().splitlines()[4].strip())
- 
-	row.append(titulacio.text_content().splitlines()[30].strip())
- 
-	row.append(titulacio.text_content().splitlines()[37].strip().split()[1])
- 
-	solicituds = tree.cssselect('tr.destacat > td.i_solicitud')[0]
-	row.append(solicituds.text_content())
+	for i in range(10,72):
 
-	primeraopcio = tree.cssselect('tr.destacat > td.i_solicitud_1era')[0]
-	row.append(primeraopcio.text_content())
+		url_suf = link_list[i].attrib['href'].split(sep=';')[0]
+			
+		url = url_base+url_suf
+		html = download(url)
+		tree = lxml.html.fromstring(html)
+	 
+		row=[]
+	 
+		titulacio = tree.cssselect('div.subcl')[0]
+		row.append(titulacio.text_content().splitlines()[4].strip())
+	 
+		row.append(titulacio.text_content().splitlines()[30].strip())
+	 
+		row.append(titulacio.text_content().splitlines()[37].strip().split()[1])
+	 
+		solicituds = tree.cssselect('tr.destacat > td.i_solicitud')[0]
+		row.append(solicituds.text_content())
 
-	oferta = tree.cssselect('tr.destacat > td.i_oferta')[0]
-	row.append(oferta.text_content().strip())
+		primeraopcio = tree.cssselect('tr.destacat > td.i_solicitud_1era')[0]
+		row.append(primeraopcio.text_content())
 
-	matriculats = tree.cssselect('tr.destacat > td.i_num_matriculats')[0]
-	row.append(matriculats.text_content())
+		oferta = tree.cssselect('tr.destacat > td.i_oferta')[0]
+		row.append(oferta.text_content().strip())
 
-	nousmatriculats = tree.cssselect('tr.destacat > td.i_nou_ingres')[0]
-	row.append(nousmatriculats.text_content())
+		matriculats = tree.cssselect('tr.destacat > td.i_num_matriculats')[0]
+		row.append(matriculats.text_content())
 
-	notatall = tree.cssselect('tr.destacat > td.i_nota_tall')[0]
-	row.append(notatall.text_content().strip())
+		nousmatriculats = tree.cssselect('tr.destacat > td.i_nou_ingres')[0]
+		row.append(nousmatriculats.text_content())
 
-	noushomes = tree.cssselect('tr.destacat')[1]
-	row.append(noushomes.text_content().split()[3])
+		notatall = tree.cssselect('tr.destacat > td.i_nota_tall')[0]
+		row.append(notatall.text_content().strip())
 
-	row.append(noushomes.text_content().split()[2])
+		noushomes = tree.cssselect('tr.destacat')[1]
+		row.append(noushomes.text_content().split()[3])
 
-	rendiment = tree.cssselect('tr.destacat > td.i_rendiment')[0]
-	row.append(rendiment.text_content().strip())
+		row.append(noushomes.text_content().split()[2])
 
-	rendimentnous = tree.cssselect('tr.destacat > td.i_rendiment_nou')[0]
-	row.append(rendimentnous.text_content().strip())
+		rendiment = tree.cssselect('tr.destacat > td.i_rendiment')[0]
+		row.append(rendiment.text_content().strip())
 
-	mitjana_credits = tree.cssselect('tr.destacat')[5]
-	row.append(mitjana_credits.text_content().split()[1])
+		rendimentnous = tree.cssselect('tr.destacat > td.i_rendiment_nou')[0]
+		row.append(rendimentnous.text_content().strip())
 
-	mitjana_edat = tree.cssselect('tr.destacat')[1]
-	row.append(mitjana_edat.text_content().split()[1])
+		mitjana_credits = tree.cssselect('tr.destacat')[5]
+		row.append(mitjana_credits.text_content().split()[1])
 
-	row.append(mitjana_edat.text_content().split()[3])
-	row.append(mitjana_edat.text_content().split()[2])
+		mitjana_edat = tree.cssselect('tr.destacat')[1]
+		row.append(mitjana_edat.text_content().split()[1])
 
-	writer.writerow(row)
+		row.append(mitjana_edat.text_content().split()[3])
+		row.append(mitjana_edat.text_content().split()[2])
+
+		writer.writerow(row)
+		
 	file.close()
 	
 
-print(row)
+print('Scraping completat')
 
 
 

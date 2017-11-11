@@ -1,0 +1,140 @@
+Tipus;Titulacio;Facultat;Credits;Solicituds;Primera_Opcio;Oferta;Matriculats;Nous_Matriculats;Nota_Tall;Nota_Mitja;Nous_Homes;Nous_Dones;Rendiment;Rendiment_Nous;Mitjana_Credits;Mitjana_Edat
+Grau;Grau en Administració i Direcció d'Empreses;Facultat d'Economia i Empresa;240;2024;281;230;935;232;9.08;9.22;128;104;84.86%;76.48%;56.7;20
+Grau;Grau en Antropologia Social i Cultural;Facultat de Filosofia i Lletres;240;388;73;80;285;81;5.64;7.58;21;60;87.81%;87.13%;55.6;20
+Grau;Grau en Arqueologia;Facultat de Filosofia i Lletres;240;235;56;80;271;62;5;7.39;34;28;85.46%;84.76%;55.9;20
+Grau;Grau en Biologia;Facultat de Biociències;240;1189;119;80;332;85;10.81;10.94;31;54;89.78%;85.41%;54.4;19
+Grau;Grau en Biologia Ambiental;Facultat de Biociències;240;475;119;65;254;69;10.7;11.02;29;40;93.91%;92.7%;57;19
+Grau;Grau en Bioquímica;Facultat de Biociències;240;730;89;65;251;64;11.4;11.58;29;35;92.51%;91.55%;57.4;18
+Grau;Grau en Biotecnologia;Facultat de Biociències;240;813;120;80;312;83;11.37;11.5;29;54;91.58%;85.57%;58.1;18
+Grau;Grau en Ciència i Tecnologia dels Aliments;Facultat de Veterinària;240;394;55;70;255;71;8.63;9.42;22;49;87.36%;85.31%;58.7;19
+Grau;Grau en Ciència Política i Gestió Pública;Facultat de Ciències Polítiques i de Sociologia;240;658;141;120;34;;NA;NA;NA;NA;70.37%;%;14.3;NA
+Grau;Grau en Ciències Ambientals;Facultat de Ciències;240;462;46;70;311;71;8.74;9.47;36;35;84.31%;78.3%;53;19
+Grau;Grau en Ciències Biomèdiques;Facultat de Biociències;240;941;177;60;213;56;12.33;12.32;20;36;92.54%;93.27%;55.9;19
+Grau;Grau en Comptabilitat i Finances;Facultat d'Economia i Empresa;240;596;139;140;543;155;5.36;6.94;72;83;74.24%;55.41%;57;21
+Grau;Grau en Comunicació Audiovisual;Facultat de Ciències de la Comunicació;240;916;144;80;321;88;10.04;10.42;20;68;94.47%;91.99%;56.8;19
+Grau;Grau en Criminologia;Facultat de Dret;240;777;111;70;270;73;7.93;8.85;29;44;91.44%;89.8%;57.4;20
+Grau;Grau en Dret;Facultat de Dret;240;1599;269;220;1047;264;7.73;8.61;88;176;82.45%;80.89%;57.3;20
+Grau;Grau en Economia;Facultat d'Economia i Empresa;240;1317;170;190;717;197;8.07;8.41;131;66;75.32%;72%;56.6;19
+Grau;Grau en Educació Infantil;Facultat de Ciències de l'Educació;240;1118;189;130;547;135;8.41;9.29;9;126;96.23%;96.09%;53.5;20
+Grau;Grau en Educació Primària;Facultat de Ciències de l'Educació;240;1821;397;255;1083;258;9.19;9.86;46;212;93.99%;91.03%;58.2;20
+Grau;Grau en Educació Social;Facultat de Ciències de l'Educació;240;887;190;80;347;86;9.2;9.6;18;68;93.56%;91.98%;52;20
+Grau;Grau en Empresa i Tecnologia;Facultat d'Economia i Empresa;240;317;109;80;312;90;6.87;8.36;61;29;78.58%;66.33%;57.8;19
+Grau;Grau en Enginyeria de Sistemes de Telecomunicació;Escola d'Enginyeria;240;NA;NA;NA;143;1;NA;NA;NA;NA;63.79%;100%;50.8;NA
+Grau;Grau en Enginyeria Electrònica de Telecomunicació;Escola d'Enginyeria;240;NA;NA;NA;135;5;NA;NA;NA;NA;68.66%;62.05%;50.2;NA
+Grau;Grau en Enginyeria Informàtica;Escola d'Enginyeria;240;1006;255;270;1036;274;6.47;7.69;254;20;72.06%;59.69%;51.5;20
+Grau;Grau en Enginyeria Química;Escola d'Enginyeria;240;449;62;80;340;78;5.93;8.18;46;32;76.53%;67.18%;54.1;20
+Grau;Grau en Estadística Aplicada;Facultat de Ciències;240;135;31;40;130;39;5;7.61;24;15;68.76%;60.06%;52.2;21
+Grau;Grau en Estudis Anglesos;Facultat de Filosofia i Lletres;240;463;81;80;317;83;6.6;8.32;21;62;76.01%;76.28%;54.4;20
+Grau;Grau en Estudis Clàssics;Facultat de Filosofia i Lletres;240;92;16;40;74;23;5;8.63;12;11;75%;66.2%;55.5;19
+Grau;Grau en Estudis d'Anglès i Català;Facultat de Filosofia i Lletres;240;85;13;30;78;32;5;7.75;6;26;67.62%;48.87%;53.9;20
+Grau;Grau en Estudis d'Anglès i de Clàssiques;Facultat de Filosofia i Lletres;240;73;16;30;46;22;5;8.3;NA;NA;66.98%;68.72%;55.7;NA
+Grau;Grau en Estudis d'Anglès i Espanyol;Facultat de Filosofia i Lletres;240;173;49;30;126;39;7.67;9.66;6;33;80.19%;85.01%;56;19
+Grau;Grau en Estudis d'Anglès i Francès;Facultat de Filosofia i Lletres;240;135;32;30;101;29;5;7.54;3;26;80.42%;68.88%;56.5;19
+Grau;Grau en Estudis d'Àsia Oriental;Facultat de Traducció i d'Interpretació;240;322;106;80;359;87;8.51;9.04;23;64;83.94%;86.69%;52;20
+Grau;Grau en Estudis de Català i Espanyol;Facultat de Filosofia i Lletres;240;46;7;30;47;7;5;8.24;NA;NA;81.06%;51.43%;55.3;NA
+Grau;Grau en Estudis Francesos;Facultat de Filosofia i Lletres;240;82;15;40;46;22;5;6.98;3;19;70.08%;70.15%;51;23
+Grau;Grau en Filosofia;Facultat de Filosofia i Lletres;240;407;47;60;189;62;5;7.18;33;29;79.82%;79.43%;53.3;20
+Grau;Grau en Física;Facultat de Ciències;240;579;97;70;314;69;10.78;11.45;49;20;82.87%;78.5%;55.8;19
+Grau;Grau en Fisioteràpia;Facultat de Medicina;240;1114;329;80;328;82;10.39;10.55;39;43;93.15%;81.96%;57.8;21
+Grau;Grau en Genètica;Facultat de Biociències;240;634;147;65;251;65;11.81;11.91;12;53;93.74%;87.4%;56.8;19
+Grau;Grau en Geografia i Ordenació del Territori;Facultat de Filosofia i Lletres;240;183;41;90;257;66;5;6.89;52;14;73.33%;68.2%;47.1;23
+Grau;Grau en Geologia;Facultat de Ciències;240;154;14;60;229;38;5;6.86;19;19;73.41%;55.97%;46.5;19
+Grau;Grau en Gestió Aeronàutica;Escola d'Enginyeria;240;280;80;65;265;65;6.37;7.86;48;17;73.72%;80.97%;54.9;19
+Grau;Grau en Història;Facultat de Filosofia i Lletres;240;479;80;160;455;97;5;7.21;64;33;81.87%;73.53%;53.3;23
+Grau;Grau en Història de l'Art;Facultat de Filosofia i Lletres;240;333;55;80;246;78;5;7.36;15;63;77.25%;74.71%;51.6;20
+Grau;Grau en Humanitats;Facultat de Filosofia i Lletres;240;263;23;80;174;68;5;7.3;23;45;79.14%;70.29%;55.6;20
+Grau;Grau en Infermeria;Facultat de Medicina;240;1475;232;90;362;93;10.55;10.73;16;77;96.2%;90.79%;59.7;19
+Grau;Grau en Llengua i Literatura Catalanes;Facultat de Filosofia i Lletres;240;86;13;50;56;15;5;7.75;1;14;70.85%;67.59%;52.9;21
+Grau;Grau en Llengua i Literatura Espanyoles;Facultat de Filosofia i Lletres;240;175;41;60;160;41;5;8.33;15;26;76.1%;78.2%;54.3;20
+Grau;Grau en Logopèdia;Facultat de Psicologia;240;526;123;80;314;85;7.91;8.75;4;81;91.98%;88.42%;56.8;21
+Grau;Grau en Matemàtiques;Facultat de Ciències;240;545;89;80;268;85;9.89;10.8;65;20;65.69%;65.73%;54.3;19
+Grau;Grau en Medicina;Facultat de Medicina;360;3255;744;320;1965;312;12.35;11.92;83;229;88.52%;82.83%;59.4;20
+Grau;Grau en Microbiologia;Facultat de Biociències;240;661;71;65;251;66;11.2;11.26;21;45;92.02%;91.58%;57.8;19
+Grau;Grau en Musicologia;Facultat de Filosofia i Lletres;240;170;77;60;198;61;6.43;7.58;29;32;79.29%;78.02%;55.9;20
+Grau;Grau en Nanociència i Nanotecnologia;Facultat de Ciències;240;296;77;70;305;69;10.74;11.33;36;33;88.64%;84.95%;55.1;19
+Grau;Grau en Pedagogia;Facultat de Ciències de l'Educació;240;975;76;75;286;75;7.96;8.63;10;65;92.39%;93.93%;55.5;21
+Grau;Grau en Periodisme;Facultat de Ciències de la Comunicació;240;1299;400;280;1182;293;9.79;10.51;115;178;91.53%;87.91%;56.1;19
+Grau;Grau en Psicologia;Facultat de Psicologia;240;2306;556;360;1422;363;8.23;9.04;69;294;89.36%;89.05%;55.6;20
+Grau;Grau en Publicitat i Relacions Públiques;Facultat de Ciències de la Comunicació;240;962;203;80;333;86;10.25;10.56;12;74;96.06%;94.48%;55.8;19
+Grau;Grau en Química;Facultat de Ciències;240;785;97;120;528;121;8.34;9.7;62;59;76.66%;69.28%;52.9;19
+Grau;Grau en Relacions Laborals;Facultat de Dret;240;689;142;125;504;129;6.07;7.02;51;78;78.04%;72.41%;54.6;20
+Grau;Grau en Sociologia;Facultat de Ciències Polítiques i de Sociologia;240;673;74;120;425;126;5.53;7.11;50;76;72.5%;57.25%;54.3;19
+Grau;Grau en Traducció i Interpretació;Facultat de Traducció i d'Interpretació;240;543;227;230;867;237;5;9.48;59;178;85.99%;79.96%;53.6;20
+Grau;Grau en Veterinària;Facultat de Veterinària;300;920;544;115;641;121;11.65;11.65;28;93;89.16%;83.38%;58;20
+Màster;Màster Universitari en Advocacia;Facultat de Dret;90;233;NA;80;160;84;NA;NA;31;53;97.54%;96.43%;233;25
+Màster;Màster Universitari en Anàlisi Econòmica / Economic Analysis;Facultat d'Economia i Empresa;120;67;NA;25;48;32;NA;NA;27;5;96.79%;95.31%;67;26
+Màster;Màster Universitari en Anàlisi i Gestió del Patrimoni;Facultat de Filosofia i Lletres;60;64;NA;25;49;36;NA;NA;7;29;89.93%;93.64%;64;24
+Màster;Màster Universitari en Antropologia: Recerca Avançada i Intervenció Social;Facultat de Filosofia i Lletres;60;61;NA;35;31;25;NA;NA;5;20;97.76%;100%;61;29
+Màster;Màster Universitari en Antropologia Social i Cultural / Social and Cultural Anthropology;Facultat de Filosofia i Lletres;120;22;NA;5;9;6;NA;NA;NA;NA;100%;100%;22;NA
+Màster;Màster Universitari en Biblioteca Escolar i Promoció de la Lectura;Facultat de Ciències de l'Educació;60;46;NA;30;31;30;NA;NA;3;27;99.67%;100%;46;28
+Màster;Màster Universitari en Bioinformàtica / Bioinformatics;Facultat de Biociències;60;130;NA;24;30;28;NA;NA;15;13;90.48%;91.96%;130;24
+Màster;Màster Universitari en Biologia i Biotecnologia Vegetal;Facultat de Biociències;60;81;NA;25;26;26;NA;NA;NA;NA;100%;100%;81;NA
+Màster;Màster Universitari en Bioquímica, Biologia Molecular i Biomedicina;Facultat de Biociències;60;151;NA;40;39;38;NA;NA;11;27;96.96%;96.94%;151;24
+Màster;Màster Universitari en Biotecnologia Avançada;Facultat de Biociències;60;101;NA;25;24;24;NA;NA;14;10;98.33%;98.33%;101;23
+Màster;Màster Universitari en Ciència Política / Political Science;Facultat de Ciències Polítiques i de Sociologia;60;119;NA;30;29;22;NA;NA;13;9;90%;89.92%;119;26
+Màster;Màster Universitari en Citogenètica i Biologia de la Reproducció;Facultat de Biociències;60;106;NA;25;27;27;NA;NA;5;22;100%;100%;106;23
+Màster;Màster Universitari en Continguts de Comunicació Audiovisual i Publicitat;Facultat de Ciències de la Comunicació;60;132;NA;30;32;31;NA;NA;NA;NA;98.08%;98.06%;132;NA
+Màster;Màster Universitari en Dret Empresarial;Facultat de Dret;60;130;NA;50;30;30;NA;NA;12;18;98.83%;98.83%;130;27
+Màster;Màster Universitari en Drets Sociolaborals;Facultat de Dret;60;47;NA;40;32;32;NA;NA;15;17;98.12%;98.12%;47;26
+Màster;Màster Universitari en Ecologia Terrestre i Gestió de la Biodiversitat;Facultat de Biociències;60;96;NA;30;36;30;NA;NA;15;15;93.68%;94.56%;96;25
+Màster;Màster Universitari en Economia i Administració d'Empreses / University Master in Economics and Business Administration;Facultat d'Economia i Empresa;60;294;NA;40;35;35;NA;NA;18;17;92.14%;92.14%;294;25
+Màster;Màster Universitari en Egiptologia;Facultat de Filosofia i Lletres;120;0;NA;30;18;;NA;NA;NA;NA;48.48%;%;0;NA
+Màster;Màster Universitari en Enginyeria Biològica i Ambiental;Escola d'Enginyeria;90;33;NA;25;29;10;NA;NA;4;6;93.64%;92.2%;33;23
+Màster;Màster Universitari en Enginyeria de Telecomunicacions / Telecommunication Engineering;Escola d'Enginyeria;90;84;NA;40;46;22;NA;NA;19;3;89.59%;89.04%;84;24
+Màster;Màster Universitari en Enginyeria Informàtica / Computer Engineering;Escola d'Enginyeria;90;85;NA;40;20;16;NA;NA;12;4;93.9%;94.56%;85;26
+Màster;Màster Universitari en Estudis Anglesos Avançats / Advanced English Studies;Facultat de Filosofia i Lletres;60;66;NA;25;31;23;NA;NA;3;20;88.28%;90.43%;66;26
+Màster;Màster Universitari en Estudis Avançats de Llengua i Literatura Catalanes;Facultat de Filosofia i Lletres;60;17;NA;25;15;13;NA;NA;5;8;93.63%;93.06%;17;28
+Màster;Màster Universitari en Estudis Interdisciplinaris en Sostenibilitat Ambiental, Econòmica i Social;Facultat de Ciències;60;158;NA;50;59;56;NA;NA;22;34;96.74%;96.67%;158;27
+Màster;Màster Universitari en Estudis Teatrals;Facultat de Filosofia i Lletres;60;50;NA;40;45;32;NA;NA;12;20;93.41%;95.34%;50;28
+Màster;Màster Universitari en Estudis Territorials i de la Població;Facultat de Filosofia i Lletres;60;41;NA;50;24;21;NA;NA;14;7;94.51%;97.04%;41;27
+Màster;Màster Universitari en Farmacologia;Facultat de Medicina;60;63;NA;25;21;21;NA;NA;8;13;100%;100%;63;26
+Màster;Màster Universitari en Farmacovigilància i Farmacoepidemiologia / Pharmacovigilance and Pharmacoepidemiology;Facultat de Medicina;120;31;NA;20;54;31;NA;NA;NA;NA;69.06%;76.81%;31;NA
+Màster;Màster Universitari en Física d'Altes Energies, Astrofísica i Cosmologia / High Energy Physics, Astrophisics and Cosmology;Facultat de Ciències;60;46;NA;25;22;16;NA;NA;15;1;76.55%;81.86%;46;25
+Màster;Màster Universitari en Formació de les Persones Adultes;Facultat de Ciències de l'Educació;60;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+Màster;Màster Universitari en Formació de Professorat d'Educació Secundària Obligatòria i Batxillerat, Formació Professional i Ensenyaments d'Idiomes (especialitat matemàtiques);Facultat de Ciències de l'Educació;60;0;NA;80;87;80;NA;NA;48;32;98.03%;98.4%;0;30
+Màster;Màster Universitari en Formació del Professorat d'Educació Secundària Obligatòria i Batxillerat, Formació Professional i Ensenyament d'Idiomes;Facultat de Ciències de l'Educació;60;0;NA;160;179;168;NA;NA;57;111;95.28%;95.44%;0;27
+Màster;Màster Universitari en Genètica Avançada/ Advanced Genetics;Facultat de Biociències;60;117;NA;25;25;24;NA;NA;5;19;93.64%;93.62%;117;23
+Màster;Màster Universitari en Gestió Aeronàutica;Escola d'Enginyeria;60;72;NA;40;46;40;NA;NA;28;12;79.85%;81.63%;72;27
+Màster;Màster Universitari en Gestió dels Recursos Humans a les Organitzacions;Facultat de Psicologia;60;170;NA;30;31;31;NA;NA;14;17;100%;100%;170;24
+Màster;Màster Universitari en Gestió, Organització i Economia de l'Empresa / Management, Organization and Business Economics;Facultat d'Economia i Empresa;60;242;NA;30;26;26;NA;NA;10;16;94.87%;94.87%;242;25
+Màster;Màster Universitari en Gestió Pública;Facultat de Ciències Polítiques i de Sociologia;60;90;NA;30;32;26;NA;NA;12;14;94.61%;95.39%;90;27
+Màster;Màster Universitari en Història de Catalunya;Facultat de Filosofia i Lletres;60;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+Màster;Màster Universitari en Història de la Ciència: Ciència, Història i Societat;Facultat de Ciències;60;23;NA;25;19;15;NA;NA;10;5;93.05%;92.96%;23;31
+Màster;Màster Universitari en Integració Europea;Facultat de Dret;60;93;NA;50;42;40;NA;NA;13;27;86.94%;87.92%;93;24
+Màster;Màster Universitari en Intervenció i Recerca en Patologia del Llenguatge: Sordesa i Trastorns Neurològics;Facultat de Psicologia;60;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+Màster;Màster Universitari en Literatura Comparada: Estudis Literaris i Culturals;Facultat de Filosofia i Lletres;60;97;NA;50;22;19;NA;NA;3;16;83.05%;85.71%;97;28
+Màster;Màster Universitari en Llengua Espanyola, Literatura Hispànica i Espanyol com a Llengua Estrangera;Facultat de Filosofia i Lletres;60;219;NA;50;75;61;NA;NA;11;50;88.62%;89.28%;219;25
+Màster;Màster Universitari en Llengua i Civilització de l'Antic Egipte;Facultat de Filosofia i Lletres;90;NA;NA;NA;2;;NA;NA;NA;NA;33.33%;%;NA;NA
+Màster;Màster Universitari en Logística i Gestió de la Cadena de Subministrament / Logistics and Supply Chain Management;Escola d'Enginyeria;120;136;NA;40;35;20;NA;NA;11;9;76.2%;98%;136;24
+Màster;Màster Universitari en Marketing;Facultat d'Economia i Empresa;60;325;NA;40;40;40;NA;NA;12;28;98.33%;98.33%;325;24
+Màster;Màster Universitari en Microbiologia Aplicada;Facultat de Biociències;60;89;NA;25;25;24;NA;NA;4;20;100%;100%;89;24
+Màster;Màster Universitari en Mitjans, Comunicació i Cultura;Facultat de Ciències de la Comunicació;60;182;NA;30;37;34;NA;NA;10;24;99.09%;99.08%;182;26
+Màster;Màster Universitari en Modelització per a la Ciència i l'Enginyeria / Modelling for Science and Engineering;Facultat de Ciències;60;68;NA;30;33;29;NA;NA;28;1;87.07%;89.86%;68;27
+Màster;Màster Universitari en Musicologia, Educació Musical i Interpretació de la Música Antiga;Facultat de Filosofia i Lletres;60;68;NA;60;63;38;NA;NA;22;16;89.36%;90.05%;68;30
+Màster;Màster Universitari en Nanociència i Nanotecnologia Avançades / Advanced Nanoscience and Nanotechnology;Facultat de Ciències;60;59;NA;35;24;22;NA;NA;15;7;97.38%;98.42%;59;23
+Màster;Màster Universitari en Neurociències;Facultat de Biociències;60;118;NA;40;44;40;NA;NA;11;29;91.21%;92.88%;118;25
+Màster;Màster Universitari en Paleontologia;Facultat de Ciències;60;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+Màster;Màster Universitari en Planificació Estratègica en Publicitat i Relacions Públiques;Facultat de Ciències de la Comunicació;60;187;NA;30;36;36;NA;NA;9;27;100%;100%;187;25
+Màster;Màster Universitari en Política Social, Treball i Benestar;Facultat de Ciències Polítiques i de Sociologia;60;63;NA;30;27;23;NA;NA;9;14;91.63%;93.04%;63;27
+Màster;Màster Universitari en Prehistòria, Antiguitat i Edat Mitjana;Facultat de Filosofia i Lletres;60;24;NA;25;27;18;NA;NA;8;10;89.95%;94.89%;24;26
+Màster;Màster Universitari en Psicologia de la Cognició i de la Comunicació;Facultat de Psicologia;60;NA;NA;NA;1;;NA;NA;NA;NA;100%;%;NA;NA
+Màster;Màster Universitari en Psicologia General Sanitària;Facultat de Psicologia;90;347;NA;80;160;84;NA;NA;10;74;98.25%;98.66%;347;24
+Màster;Màster Universitari en Psicopedagogia;Facultat de Ciències de l'Educació;60;224;NA;40;44;39;NA;NA;1;38;98.95%;99.46%;224;26
+Màster;Màster Universitari en Qualitat d'Aliments d'Origen Animal;Facultat de Veterinària;60;38;NA;30;10;10;NA;NA;2;8;100%;100%;38;25
+Màster;Màster Universitari en Química Industrial i Introducció a la Recerca Química / Industrial Chemistry and Introduction to Chemical Research;Facultat de Ciències;60;66;NA;40;39;38;NA;NA;19;19;99.74%;99.74%;66;23
+Màster;Màster Universitari en Recerca Aplicada en Economia i Empresa / Applied Research in Economics and Business;Facultat d'Economia i Empresa;60;111;NA;30;26;24;NA;NA;14;10;90.3%;91.04%;111;26
+Màster;Màster Universitari en Recerca Clínica Aplicada a Ciències de la Salut;Facultat de Medicina;60;54;NA;30;21;21;NA;NA;7;14;41.32%;41.32%;54;33
+Màster;Màster Universitari en Recerca en Comunicació i Periodisme;Facultat de Ciències de la Comunicació;60;107;NA;25;23;17;NA;NA;NA;NA;83.17%;82.98%;107;NA
+Màster;Màster Universitari en Recerca en Educació;Facultat de Ciències de l'Educació;60;164;NA;80;76;67;NA;NA;19;48;97.87%;98.16%;164;31
+Màster;Màster Universitari en Recerca en Psicologia Aplicada a les Ciències de la Salut;Facultat de Psicologia;60;33;NA;40;19;19;NA;NA;NA;NA;93.95%;93.95%;33;NA
+Màster;Màster Universitari en Recerca i Innovació en Cures Infermeres;Facultat de Medicina;60;37;NA;30;26;26;NA;NA;5;21;91.2%;91.2%;37;34
+Màster;Màster Universitari en Recerca i Intervenció Psicosocial;Facultat de Psicologia;60;107;NA;30;34;32;NA;NA;8;24;98.31%;98.25%;107;26
+Màster;Màster Universitari en Relacions Internacionals, Seguretat i Desenvolupament;Facultat de Ciències Polítiques i de Sociologia;60;168;NA;50;51;51;NA;NA;22;29;96.69%;96.69%;168;26
+Màster;Màster Universitari en Reptes de la Filosofia Contemporània;Facultat de Filosofia i Lletres;60;14;NA;30;12;9;NA;NA;NA;NA;95.35%;97.5%;14;NA
+Màster;Màster Universitari en Tractament de la Informació i Comunicació Multilingüe;Facultat de Filosofia i Lletres;60;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+Màster;Màster Universitari en Traducció Audiovisual;Facultat de Traducció i d'Interpretació;60;101;NA;50;54;54;NA;NA;12;42;98.99%;98.99%;101;25
+Màster;Màster Universitari en Traducció, Interpretació i Estudis Interculturals;Facultat de Traducció i d'Interpretació;60;273;NA;75;59;57;NA;NA;13;44;98.36%;98.34%;273;26
+Màster;Màster Universitari en Tradumàtica: Tecnologies de la Traducció;Facultat de Traducció i d'Interpretació;60;71;NA;30;32;32;NA;NA;9;23;100%;100%;71;25
+Màster;Màster Universitari en Trastorns de la Comunicació i del Llenguatge;Facultat de Psicologia;60;71;NA;30;29;24;NA;NA;1;23;92.22%;92.47%;71;26
+Màster;Màster Universitari en Visió per Computador / Computer Vision;Escola d'Enginyeria;60;71;NA;30;37;30;NA;NA;22;8;92.11%;92.92%;71;24
+Màster;Màster Universitari en Zoonosi i Una Sola Salut (One Health);Facultat de Veterinària;60;46;NA;25;22;22;NA;NA;5;17;100%;100%;46;28

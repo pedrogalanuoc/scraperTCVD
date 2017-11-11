@@ -1,6 +1,14 @@
 # scraperTCVD
 Dataset containing info on 2016 Uab degrees made by scraping techniques, and the python scraper used code itself
 
+## Dataset file history:
+
+v1.0 (12/11/17)
+
+Dataset file complete. It has 139 registers in .CSV format.
+
+## Scraper code history:
+
 v1.0 (12/11/17)
 
 - Added suport to fetch data from Masters type degrees.

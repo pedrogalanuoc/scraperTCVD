@@ -7,9 +7,7 @@ In this release, the scraper only gets data from one degree, and has no error co
 v0.2a 
 Now, the scraper is able to scrape across several webpages and get data from them. 
 
-11/11/17
-
-v1.0b
+v1.0b (11/11/17)
 
 The scraper now is able to crawl over the full pages set, and generates the complete .CSV as a result. The dataset generated is added to the repository
 

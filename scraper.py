@@ -19,11 +19,11 @@ link_list = doc.cssselect("a")
 url_base = 'http://siq.uab.cat'
 
 FIELDS = ('Titulacio', 'Facultat', 'Credits', 'Solicituds', 'Primera_Opcio', 'Oferta', 'Matriculats',
- 'Nous_Matriculats', 'Nota_Tall', 'Nous_Homes', 'Nous_Dones', 'Rendiment', 'Rendiment_Nous', 'Mitjana_Credits',
- 'Mitjana_Edat', 'Num_Homes', 'Num_Dones')
+ 'Nous_Matriculats', 'Nota_Tall', 'Nota_Mitja', 'Nous_Homes', 'Nous_Dones', 'Rendiment', 'Rendiment_Nous', 'Mitjana_Credits',
+ 'Mitjana_Edat')
  
 
-with open('data.csv','w') as file: 
+with open('data.csv','w', newline='') as file: 
  
 	writer = csv.writer(file, delimiter=";")
 	writer.writerow(FIELDS)
@@ -31,6 +31,9 @@ with open('data.csv','w') as file:
  
 	for i in range(10,72):
 
+		
+		
+		
 		url_suf = link_list[i].attrib['href'].split(sep=';')[0]
 			
 		url = url_base+url_suf
@@ -39,50 +42,67 @@ with open('data.csv','w') as file:
 	 
 		row=[]
 	 
-		titulacio = tree.cssselect('div.subcl')[0]
-		row.append(titulacio.text_content().splitlines()[4].strip())
+		titulacio = tree.cssselect('div.subcl')
+		if (titulacio == []): row.append("NA")
+		else: row.append(titulacio[0].text_content().splitlines()[4].strip())
 	 
-		row.append(titulacio.text_content().splitlines()[30].strip())
+		if (titulacio == []): row.append("NA")
+		else: row.append(titulacio[0].text_content().splitlines()[30].strip())
 	 
-		row.append(titulacio.text_content().splitlines()[37].strip().split()[1])
+		if (titulacio == []): row.append("NA")
+		else: row.append(titulacio[0].text_content().splitlines()[37].strip().split()[1])
 	 
-		solicituds = tree.cssselect('tr.destacat > td.i_solicitud')[0]
-		row.append(solicituds.text_content())
+		solicituds = tree.cssselect('tr.destacat > td.i_solicitud')
+		if (solicituds == []): row.append("NA")
+		else: row.append(solicituds[0].text_content())
 
-		primeraopcio = tree.cssselect('tr.destacat > td.i_solicitud_1era')[0]
-		row.append(primeraopcio.text_content())
+		primeraopcio = tree.cssselect('tr.destacat > td.i_solicitud_1era')
+		if (primeraopcio == []): row.append("NA")
+		else: row.append(primeraopcio[0].text_content())
 
-		oferta = tree.cssselect('tr.destacat > td.i_oferta')[0]
-		row.append(oferta.text_content().strip())
+		oferta = tree.cssselect('tr.destacat > td.i_oferta')
+		if (oferta == []): row.append("NA")
+		else: row.append(oferta[0].text_content().strip())
 
-		matriculats = tree.cssselect('tr.destacat > td.i_num_matriculats')[0]
-		row.append(matriculats.text_content())
+		matriculats = tree.cssselect('tr.destacat > td.i_num_matriculats')
+		if (matriculats == []): row.append("NA")
+		else: row.append(matriculats[0].text_content())
 
-		nousmatriculats = tree.cssselect('tr.destacat > td.i_nou_ingres')[0]
-		row.append(nousmatriculats.text_content())
+		nousmatriculats = tree.cssselect('tr.destacat > td.i_nou_ingres')
+		if (nousmatriculats == []): row.append("NA")
+		else: row.append(nousmatriculats[0].text_content())
 
-		notatall = tree.cssselect('tr.destacat > td.i_nota_tall')[0]
-		row.append(notatall.text_content().strip())
+		notatall = tree.cssselect('tr.destacat > td.i_nota_tall')
+		if (notatall == []): row.append("NA")
+		else: row.append(notatall[0].text_content().strip())
 
-		noushomes = tree.cssselect('tr.destacat')[1]
-		row.append(noushomes.text_content().split()[3])
+		notamitja = tree.cssselect('tr.destacat > td.i_nota_mitja_acces')
+		if (notamitja == []): row.append("NA")
+		else: row.append(notamitja[0].text_content().strip())
+		
+		noushomes = tree.cssselect('table.taula_indicador')
+		if not('2016' in noushomes[1].text_content().split()): row.append("NA")
+		else: row.append(noushomes[1].text_content().split()[noushomes[1].text_content().split().index('2016')+3])
 
-		row.append(noushomes.text_content().split()[2])
+		if not('2016' in noushomes[1].text_content().split()): row.append("NA")
+		else: row.append(noushomes[1].text_content().split()[noushomes[1].text_content().split().index('2016')+2])
 
-		rendiment = tree.cssselect('tr.destacat > td.i_rendiment')[0]
-		row.append(rendiment.text_content().strip())
+		rendiment = tree.cssselect('tr.destacat > td.i_rendiment')
+		if (rendiment == []): row.append("NA")
+		else: row.append(rendiment[0].text_content().strip())
 
-		rendimentnous = tree.cssselect('tr.destacat > td.i_rendiment_nou')[0]
-		row.append(rendimentnous.text_content().strip())
+		rendimentnous = tree.cssselect('tr.destacat > td.i_rendiment_nou')
+		if (rendimentnous == []): row.append("NA")
+		else: row.append(rendimentnous[0].text_content().strip())
 
-		mitjana_credits = tree.cssselect('tr.destacat')[5]
-		row.append(mitjana_credits.text_content().split()[1])
+		mitjana_credits = tree.cssselect('table.taula_indicador')
+		if not('2016' in mitjana_credits[4].text_content().split()): row.append("NA")
+		else: row.append(mitjana_credits[4].text_content().split()[mitjana_credits[4].text_content().split().index('2016')+1])
 
-		mitjana_edat = tree.cssselect('tr.destacat')[1]
-		row.append(mitjana_edat.text_content().split()[1])
-
-		row.append(mitjana_edat.text_content().split()[3])
-		row.append(mitjana_edat.text_content().split()[2])
+		mitjana_edat = tree.cssselect('table.taula_indicador')
+		if not('2016' in mitjana_edat[1].text_content().split()): row.append("NA")
+		else: row.append(mitjana_edat[1].text_content().split()[mitjana_edat[1].text_content().split().index('2016')+1])
+		
 
 		writer.writerow(row)
 		

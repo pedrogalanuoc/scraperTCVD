@@ -1,5 +1,5 @@
 # scraperTCVD
-Dataset containing info on 2016 Uab degrees made by scraping techniques, and the python scraper used code itself
+Dataset containing info on 2016 Uab degrees made by scraping techniques, and the python scraper used code itself, as long as other support files regarding information about licence, and a file to evaluate the work done for author's academic purposes.
 
 ## Dataset file history:
 

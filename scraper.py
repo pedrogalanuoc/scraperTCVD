@@ -4,6 +4,7 @@ import lxml
 from lxml import html
 import requests
 import csv
+import time
 
 
 def download(url):
@@ -18,7 +19,7 @@ link_list = doc.cssselect("a")
 
 url_base = 'http://siq.uab.cat'
 
-FIELDS = ('Titulacio', 'Facultat', 'Credits', 'Solicituds', 'Primera_Opcio', 'Oferta', 'Matriculats',
+FIELDS = ('Tipus', 'Titulacio', 'Facultat', 'Credits', 'Solicituds', 'Primera_Opcio', 'Oferta', 'Matriculats',
  'Nous_Matriculats', 'Nota_Tall', 'Nota_Mitja', 'Nous_Homes', 'Nous_Dones', 'Rendiment', 'Rendiment_Nous', 'Mitjana_Credits',
  'Mitjana_Edat')
  
@@ -29,10 +30,10 @@ with open('data.csv','w', newline='') as file:
 	writer.writerow(FIELDS)
   
  
-	for i in range(10,72):
+	for i in range(10,149):
 
 		
-		
+		time.sleep(5)
 		
 		url_suf = link_list[i].attrib['href'].split(sep=';')[0]
 			
@@ -44,14 +45,17 @@ with open('data.csv','w', newline='') as file:
 	 
 		titulacio = tree.cssselect('div.subcl')
 		if (titulacio == []): row.append("NA")
+		else: row.append(titulacio[0].text_content().splitlines()[4].strip().split()[0])
+			
+		if (titulacio == []): row.append("NA")
 		else: row.append(titulacio[0].text_content().splitlines()[4].strip())
 	 
 		if (titulacio == []): row.append("NA")
-		else: row.append(titulacio[0].text_content().splitlines()[30].strip())
+		else: row.append(titulacio[0].text_content().splitlines()[titulacio[0].text_content().splitlines().index("Centres on s'ofereix la titulació")+2].strip())
 	 
 		if (titulacio == []): row.append("NA")
-		else: row.append(titulacio[0].text_content().splitlines()[37].strip().split()[1])
-	 
+		else: row.append(titulacio[0].text_content().splitlines()[titulacio[0].text_content().splitlines().index("Centres on s'ofereix la titulació")+9].strip().split()[1])
+		 
 		solicituds = tree.cssselect('tr.destacat > td.i_solicitud')
 		if (solicituds == []): row.append("NA")
 		else: row.append(solicituds[0].text_content())
@@ -105,6 +109,7 @@ with open('data.csv','w', newline='') as file:
 		
 
 		writer.writerow(row)
+		
 		
 	file.close()
 	
